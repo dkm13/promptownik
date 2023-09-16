@@ -1,0 +1,137 @@
+body {
+  background-color: #0f172a !important;
+}
+
+.navbar-brand img {
+  width: 70px;
+}
+.logo-text {
+  color: white !important;
+  text-decoration: none;
+  margin-bottom: 20px !important;
+}
+
+.nav-item .nav-link {
+  margin: 0 18px !important;
+  font-size: 20px !important;
+}
+
+/* dashboard stats */
+.stats {
+  width: 90%;
+  height: auto;
+
+  margin: auto;
+  margin-top: 20px;
+  background-color: #1c4169;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+h3 {
+  color: rgb(0, 0, 0) !important;
+  text-align: center;
+  margin: 19px 0 0 0 !important;
+}
+.box {
+  width: 28%;
+  height: 150px;
+  background-color: rgb(211, 206, 206);
+  margin: 18px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.box p {
+  font-size: 20px;
+}
+.box h3 {
+  font-size: 45px;
+  color: white !important;
+}
+.box:hover {
+  box-shadow: 0 0 11px white;
+}
+.h3_stat {
+  color: black !important;
+}
+/* user details */
+.account {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 8px;
+  color: white;
+  text-align: center;
+}
+
+.user-details {
+  width: 50%;
+  margin: auto;
+}
+.user-details p {
+  background-color: rgb(53, 46, 46);
+}
+
+/* user info */
+.user-info {
+  width: 70%;
+  /* outline: 1px solid red; */
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-info img {
+  width: 200px !important;
+  border: 3px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* prompts page */
+.prompts-list {
+  width: 90%;
+  height: auto;
+  outline: 1px solid white;
+  margin: auto;
+}
+.featured-prompts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.prompt {
+  width: 30%;
+  margin: 6px;
+  background-color: rgb(204, 201, 201);
+  color: white;
+  text-align: center;
+  padding: 6px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.prompt img {
+  width: 60%;
+}
+.prompt a {
+  text-decoration: none;
+}
+.prompt h4,
+p {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}

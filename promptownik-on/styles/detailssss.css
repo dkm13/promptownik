@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0f172a !important;
+}
+.con h3 {
+  color: white;
+  text-align: center;
+  margin: 6px 0;
+}
+.divider {
+  background-color: white;
+  height: 4px;
+}
+
+.prompttitle {
+  text-decoration: underline solid white;
+}
+
+.con {
+  width: 95% !important;
+  height: auto;
+  /* outline: 1px solid white; */
+  margin: 10px 0 10px 0;
+  background-color: transparent;
+  margin: 10px auto;
+
+  display: flex;
+  flex-direction: row;
+}
+.part-1 {
+  width: 40%;
+  height: auto;
+  /* outline: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part-1 img {
+  width: 80%;
+  height: 90%;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+.part-2 {
+  width: 55%;
+  /* outline: 1px solid green; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* align-items: center; */
+  padding: 12px 9px;
+  color: white;
+  margin: auto;
+}
+.btn-dark {
+  width: 120px !important;
+}
+.btn-success {
+  width: 170px !important;
+  font-size: 20px !important;
+}
+.part-2 h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 42px;
+}
+.btn-con {
+  display: flex;
+  flex-direction: row;
+  margin: 6px 0 15px 0;
+}
+.btn {
+  margin: 4px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .con {
+    width: 97%;
+  }
+  .part-1 {
+    width: 50% !important;
+  }
+  .part-1 img {
+    width: 80%;
+    height: 60%;
+  }
+  .part-2 {
+    width: 50% !important;
+  }
+  .part-2 h4 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+  }
+  .part-2 p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .con {
+    width: 95%;
+    flex-direction: column;
+  }
+  .part-1 {
+    width: 100% !important;
+  }
+
+  .part-1 img {
+    width: 80%;
+    height: 230px;
+  }
+  .part-2 {
+    width: 100% !important;
+  }
+  .part-2 h4 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+  }
+  .part-2 p {
+    font-size: 15px;
+  }
+}
